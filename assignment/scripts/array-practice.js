@@ -65,7 +65,9 @@ console.log('Added an animal to end,', animalArray);
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
 
-
+let dessert = "lemon cake"
+favoriteFoods.push(dessert)
+console.log(favoriteFoods)
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
 animalArray.unshift(animalToUnshift);
@@ -101,7 +103,9 @@ console.log('The animals are now', animalArray);
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
 
-
+let removedvalue  =  colors.shift()
+firstColor= removedvalue
+console.log(this.firstColor)
 
 
 // STRETCH GOALS:
